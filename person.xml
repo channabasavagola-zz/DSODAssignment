@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Persons>
+    <Person>
+        <Name>
+            <First>Channabasava</First>
+            <Last>Gola</Last>
+        </Name>
+        <Credential>
+            <Id>12345</Id>
+            <Password Encryption="yes">ewilfhohiwe</Password>
+        </Credential>
+        <Phone>
+            <Work>480-65443221</Work>
+            <Cell Provider="T-Mobile">987654321</Cell>
+        </Phone>
+        <Category>Acquaintance</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Jags</First>
+            <Last>See</Last>
+        </Name>
+        <Credential>
+            <Id>84848</Id>
+            <Password>hahahahrewqewr</Password>
+        </Credential>
+        <Phone>
+            <Work>3289649837</Work>
+            <Cell Provider="ATT">123456789</Cell>
+        </Phone>
+        <Category>Friend</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Rock</First>
+            <Last>Ram</Last>
+        </Name>
+        <Credential>
+            <Id>64646</Id>
+            <Password Encryption="no">oiqueyr</Password>
+        </Credential>
+        <Phone>
+            <Work>480-91832521</Work>
+            <Cell>89126384</Cell>
+        </Phone>
+        <Category>Work</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Ranga</First>
+            <Last>John</Last>
+        </Name>
+        <Credential>
+            <Id>64646</Id>
+            <Password Encryption="no">rrrewqt</Password>
+        </Credential>
+        <Phone>
+            <Work>480-97822521</Work>
+            <Cell>89999984</Cell>
+        </Phone>
+        <Category>Work</Category>
+    </Person>
+    <Person>
+        <Name>
+            <First>Suhus</First>
+            <Last>Tim</Last>
+        </Name>
+        <Credential>
+            <Id>61116</Id>
+            <Password Encryption="no">trwetwrwryq</Password>
+        </Credential>
+        <Phone>
+            <Work>480-919999521</Work>
+            <Cell>44444384</Cell>
+        </Phone>
+        <Category>Family</Category>
+    </Person>
+    
+</Persons>

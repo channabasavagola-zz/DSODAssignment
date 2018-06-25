@@ -1,9 +1,6 @@
 <?xml version="1.0"?>
 <Persons>
     <Person>
-            <First>Channabasava</First>
-            <Last>Gola</Last>
-        </Name>
         <Credential>
             <Id>12345</Id>
             <Password Encryption="yes">ewilfhohiwe</Password>

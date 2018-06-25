@@ -12,11 +12,11 @@
 
 			h1 {
 				font-variant: normal;
-				font-family: Monospace;
+				font-family: "Times New Roman";
 				line-height: 28px;
 				font-size: 25px;
-				font-weight: 375;
-				font-style: normal;
+				font-weight: 500;
+				font-style: italic;
 			}
 		</style>
 		</head>  
@@ -25,22 +25,13 @@
 			<table border="2" class="w3-table-all w3-hoverable">
 				<tr> 
 					<th>
-						<b> First </b>
+						<b> Firstname </b>
 					</th> 
 					<th>
-						<b> Last </b>
+						<b> Lastname </b>
 					</th> 
 					<th>
-						<b> Work </b>
-					</th> 
-					<th>
-						<b> Cell </b>
-					</th> 
-					<th>
-						<b> Cell Phone Provider </b>
-					</th>
-					<th>
-						<b> Identification </b>
+						<b> user ID </b>
 					</th>
 					<th>
 						<b> Password </b>
@@ -50,6 +41,15 @@
 					</th> 
 					<th>
 						<b> Category </b>
+					</th>
+					<th>
+						<b> Work Phone </b>
+					</th> 
+					<th>
+						<b> Cell Phone </b>
+					</th> 
+					<th>
+						<b> Network Provider </b>
 					</th>
 				</tr>
 				<xsl:for-each select="Persons/Person">
@@ -62,15 +62,6 @@
 							<xsl:value-of select="Name/Last"/>
 						</td>
 						<td>
-							<xsl:value-of select="Phone/Work"/>
-						</td>
-						<td>
-							<xsl:value-of select="Phone/Cell"/>
-						</td>
-						<td>
-							<xsl:value-of select="Phone/Cell/@Provider"/>
-						</td>
-						<td>
 							<xsl:value-of select="Credential/Id"/>
 						</td>
 						<td>
@@ -81,6 +72,15 @@
 						</td>
 						<td>
 							<xsl:value-of select="Category"/>
+						</td>
+						<td>
+							<xsl:value-of select="Phone/Work"/>
+						</td>
+						<td>
+							<xsl:value-of select="Phone/Cell"/>
+						</td>
+						<td>
+							<xsl:value-of select="Phone/Cell/@Provider"/>
 						</td>
 					</tr>
 				</xsl:for-each>

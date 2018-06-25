@@ -5,9 +5,9 @@
 		<head>
 		<style>
 			b {
-				font-family: Monospace;
-				font-size: 16px;
-				line-height: 22px;
+				font-family: "Times New Roman";
+				font-size: 20px;
+				line-height: 25px;
 			}
 
 			h1 {
@@ -34,12 +34,6 @@
 						<b> user ID </b>
 					</th>
 					<th>
-						<b> Password </b>
-					</th>
-					<th>
-						<b> Encryption </b>
-					</th> 
-					<th>
 						<b> Category </b>
 					</th>
 					<th>
@@ -63,12 +57,6 @@
 						</td>
 						<td>
 							<xsl:value-of select="Credential/Id"/>
-						</td>
-						<td>
-							<xsl:value-of select="Credential/Password"/>
-						</td>
-						<td>
-							<xsl:value-of select="Credential/Password/@Encryption"/>
 						</td>
 						<td>
 							<xsl:value-of select="Category"/>
